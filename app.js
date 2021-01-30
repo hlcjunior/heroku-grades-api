@@ -31,7 +31,6 @@ app.use(
         origin: 'https://hlcjunior-grades-api.herokuapp.com/',
         */
         //origin: '*',
-        origin: 'https://hlcjunior-grades-api.herokuapp.com/',
         origin: 'https://hlcjunior-grades-app.herokuapp.com/',
     })
 );
