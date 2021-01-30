@@ -30,7 +30,9 @@ app.use(
         origin: 'http://localhost:8081',
         origin: 'https://hlcjunior-grades-api.herokuapp.com/',
         */
-        origin: '*',
+        //origin: '*',
+        origin: 'https://hlcjunior-grades-api.herokuapp.com/',
+        origin: 'https://hlcjunior-grades-app.herokuapp.com/',
     })
 );
 app.use(gradeRouter);
