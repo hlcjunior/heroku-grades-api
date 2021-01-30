@@ -26,6 +26,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(
     cors({
         origin: 'http://localhost:8080',
+        origin: 'https://hlcjunior-heroku-grades-app.herokuapp.com/',
     })
 );
 app.use(gradeRouter);
