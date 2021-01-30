@@ -27,8 +27,7 @@ app.use(
     cors({
         origin: 'http://localhost:8080',
         origin: 'http://localhost:8081',
-        origin: 'https://hlcjunior-grades-app.herokuapp.com/',
-        origin: 'http://hlcjunior-grades-app.herokuapp.com/',
+        origin: 'https://hlcjunior-grades-api.herokuapp.com/',
     })
 );
 app.use(gradeRouter);
